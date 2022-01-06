@@ -1,0 +1,174 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+/*1st=devision*/
+.hero{
+
+    height: 100px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+.logo{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+span{
+    color: red;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+
+/* 1nd=>section */
+
+h1{
+    font-size: 80px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    border-left: 8px solid red;
+    padding-left: 10px;
+}
+
+/* heading =>My Mission in 2022*/
+
+h2{
+    font-size: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+/*2nd=>section*/
+
+h3{
+    font-size: 25px;
+}
+
+/*All secsions peragraph*/
+
+p{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+
+
+.orange-color{
+    color: orange;
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orangered,orange);
+    padding: 15px 25px;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.flexible{
+    display: flex;
+}
+
+.half-width{
+    width: 100%;
+    padding: 95px;
+}
+.half-width img{
+    width: 100%;
+}
+
+
+/* 2nd=>section */
+
+.roy1{
+    box-shadow: 5px 5px 5px 5px #292727;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 200px;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 30px 30px; 
+    background-color: rgba(170, 95, 240, 0.7);
+ }
+
+
+ 
+.roy2{
+    box-shadow: 5px 5px 5px 5px #292727;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 200px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 30px 30px; 
+    background-color: rgba(230, 187, 119, 0.829);
+ }
+
+
+ .roy3{
+    box-shadow: 5px 5px 5px 5px #292727;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 200px;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 30px 30px; 
+    background-color: rgba(117, 212, 212, 0.849);
+ }
+
+  /*1st=>section*/
+
+ .puchka{
+    background-image: url(images/exp-bg.png);
+    background-position:left-bottom;
+    background-repeat: no-repeat;
+}
+
+ /*3rd=>section*/
+
+ .puchki {
+    background-image: url(images/dream-bg.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+
+/*footer section*/
+
+.footer {
+    text-align: center;
+    font-size:50px;
+    color: white;
+   background-color: #0d0822;
+    padding: 10px;
+ 
+}
+
+.footer h5{
+    font-size: 20px;
+
+}
+
